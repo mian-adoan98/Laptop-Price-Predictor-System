@@ -1,0 +1,99 @@
+Feature 0 = Brand: ['other'] (size = 1) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 1 = Price: [303.8 152.  244.  ... 608.  268.  162.2] (size = 1263) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 2 = Color: ['gray' 'other' 'silver' 'multicolor' 'black' 'grey' 'white' 'blue'
+ 'green' 'beige' 'gold' 'brown'] (size = 12) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 7 = GPU: ['intel' 'other' 'amd' 'nvidia'] (size = 4) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 8 = Processor: ['quad core' 'intel celeron processor n4100' 'intel core i5-8259u'
+ 'undefined' 'intel celeron n4100' 'intel celeron n5100'
+ 'intel i7-q740 1.73ghz' 'intel celeron' 'intel core i5 6th generation'
+ 'intel core i3 2330m' 'intel i5' 'intel core i3 4th generation'
+ 'not applicable' 'intel core i3 6th generation'
+ 'intel core i5 4th generation' 'pentium4' 'intel core i7 11th generation'
+ 'intel pentium' 'inter core i7 8550u' 'intel core i5 7th generation'
+ 'a9 chip' 'intel atom quad-core' 'intel core i5 8th generation'
+ 'google tensor g2' 'core i5-7300u' 'qualcomm msm8909'
+ 'core i5 8th gen i5-8365u' 'ntel' 'intel pentium 4 m' 'intel core 2 duo'
+ 'i9-13900hx' 'intel core i9 13th generation' 'intel celeron n'
+ 'intel core i5 12th generation' 'intel' 'v19' 'i5-4250u'
+ 'inter core i5 8250u' 'intel core i7 9th generation'
+ 'intel core i5 6th till 12th gen select from above'
+ 'intel core i7 12th generation' 'amd ryzen 7'
+ 'intel core i5 3rd generation' 'intel core m5 6th generation'
+ 'intel core i7 6th generation' 'intel core i3-1115g4' 'intel n100'
+ 'intel core i5-5300u' 'intel celeron n4020'
+ 'intel core i7 8th generation' 'intel core i5 5th generation' 'i5-10210u'
+ 'intel core m3 7th generation' 'intel core i7' 'android 4.0'
+ 'intel core i5' 'core i5-5300u 2.30ghz' '11th gen intel core i5-1135g7'
+ 'intel core i5 11th generation' 'e3-1505m v6' 'fz-g1'
+ 'intel core i7 7th generation' 'intel core i3/i5' 'intel core i7-7y75'
+ 'intel core i5-6300u' 'intel celeron n4000' 'apple m1 chip'
+ 'intel core i5-7300u' 'intel pentium iii' 'intel celeron d'
+ 'see title/description' '12th gen intel® core™ i5-12450h processor'
+ 'intel core i3 11th generation' 'intel core i5 5300u' 'dual core'
+ 'intel i5 6th generation' 'intel i7 2nd generation'
+ 'quad-core intel n100' 'rockchip rk 3288' 'intel core i-5'
+ 'intel core i3 5th generation' 'amd e-series' 'core i5' 'intel core'
+ 'pentium d' 'intel core i5-2520m' 'apple m1'
+ '13th gen intel® core™ i5-13420h processor' 'backpack'
+ 'core i7 8th generation' 'i7-6500u' 'intel celeron m'
+ 'intel atom x5 z8350' 'intel centrino' 'intel core i7 4th generation'
+ 'pentium m' 'intel core i7-8650u' 'amd a10'
+ 'intel core 2 duo, intel core 2 duo t7100 (1.8ghz)'
+ 'intel pentium silver' 'intel core i5 1st generation'
+ '13th gen intel® core™ i9-13900h processor' 'amd intel' 'core i3'
+ 'intel celeron n2920' 'intel atom' 'core i5 m520' 'i5-7y54' 'i7'
+ 'intel core duo' 'intel dual core quad thread pentium 4415u 2.30ghz'
+ 'intel core m3' 'intel or amd' 'quartz or automatic' 'pentium' 'n3530'
+ 'core i7 6th generation' 'intel core i5 8th generation 8250u' 'i5-8259u'
+ 'core i5-3437u' 'intel core i7-1165g7' 'intel core i5 2nd generation'
+ 'i7-6600u' 'mixt' 'i5' 'amd a4 dual-core' 'core  i3-6100u' 'intel® atom™'
+ 'cable' 'ntel,' 'intel mobile'] (size = 131) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 9 = Processor Speed: [3.80000000e+00 2.80000000e+00 1.18617422e+00 3.40000000e+00
+ 1.73000000e+00 2.40000000e+00 3.00000000e+00 2.50000000e+00
+ 1.80000000e+00 2.30000000e+00 2.60000000e+00 1.60000000e+00
+ 1.30000000e+00 2.26000000e-03 1.10000000e+00 1.50000000e+00
+ 1.99000000e+00 2.90000000e+00 1.20000000e+00 2.16000000e+00
+ 1.40000000e+00 2.70000000e+00 4.70000000e+00 1.07000000e+00
+ 1.70000000e+00 3.60000000e+00 2.10000000e+00 1.90000000e+00
+ 3.20000000e+00 1.44000000e+00 1.86000000e+00 2.20000000e+00
+ 3.50000000e+00 2.00000000e+00 3.30000000e+00 2.53000000e+00
+ 4.10000000e+00 1.87000000e+00] (size = 38) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 10 = Type: ['notebook/laptop' 'other'] (size = 2) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 11 = Display Width: [2160.         1920.          779.24217069 2256.         1280.
+ 1024.         2560.         1366.         2200.          800.
+ 3840.        ] (size = 11) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 12 = Display Height: [1440.         1080.          447.94931867 1504.         1200.
+  720.          576.          800.         1600.          768.
+  600.         1650.          480.         2160.         2400.
+ 1024.          728.        ] (size = 17) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 13 = OS: ['windows' 'unknown' 'linux' 'chrome' 'android' 'mac'] (size = 6) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 14 = Storage Type: ['ssd' 'hdd/ssd' 'unknown' 'emmc' 'other'] (size = 5) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 15 = Hard Drive Capacity: [5.120e+02 2.560e+02 9.889e+01 1.200e+01 5.000e+02 1.600e+01 1.280e+02
+ 8.000e+00 1.000e+03 1.600e+02 4.000e+00 1.200e+02 4.000e+03 2.500e+02
+ 6.400e+01 6.400e+02 2.000e+00 7.500e+02 8.000e+01 8.100e+01 3.200e+02
+ 2.400e+02 2.000e+03 2.400e+01] (size = 24) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 16 = SSD Capacity: [1000.    256.    512.    205.95  500.    240.    960.    480.    120.
+  128.     16.   4000.   2000.     64.      4.     32.   1024.  ] (size = 17) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 17 = Screen Size (inch): [14.         14.1         9.07658618 15.6        13.5        18.4
+ 12.          7.         13.3        17.3        15.          8.
+ 10.95       12.5        11.6        15.4        18.         13.
+ 10.1        10.5        12.3        10.4        10.         12.1
+ 16.         15.5        11.         10.8         9.          6.
+ 13.1        14.2         4.        ] (size = 33) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Feature 18 = Ram Size: [8.00e+00 5.98e+00 1.60e+01 1.20e+01 4.00e+00 3.20e+01 6.40e+01 2.00e+00
+ 6.00e-02 2.56e+02 1.00e+00 6.00e+00 5.12e+02 2.40e+01] (size = 14) 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
