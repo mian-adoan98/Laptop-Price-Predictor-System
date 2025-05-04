@@ -82,6 +82,26 @@ class SimpleLinearRegression(LinearRegression):
         ypred = np.dot(X, self.weights) + self.bias
         return ypred
     
+    # Visualise the predictions 
+    def visualise_regression(self, x, y, labels, ypred = None, title = "Training"):
+        # Visualise the predictions using scatter plot
+
+        if ypred is not None:
+            plt.figure(figsize=(10, 6))
+            plt.scatter(x, y, color="blue")
+            plt.plot(x, ypred, color="black", linewidth=2)
+            plt.xlabel(labels[0])
+            plt.ylabel(labels[1])
+            plt.title(f"{title}: {labels[0]} vs {labels[1]}")
+        else:
+            plt.figure(figsize=(10, 6))
+            plt.scatter(x, y, color="blue")
+            plt.xlabel(labels[0])
+            plt.ylabel(labels[1])
+            plt.title(f"{title}: {labels[0]} vs {labels[1]}")
+        
+        plt.show()
+    
 # Implement MultivariateLinearRegression model of the LinearRegression blueprint
 class MultivariateLinearRegression(LinearRegression): 
     pass
