@@ -19,24 +19,26 @@ class FeatureEngineering(ABC):
         - response: dataframe with 1D"""
     
     @abstractmethod
-    def tranform(feature_data: pd.DataFrame) -> pd.DataFrame:
+    def tranform(feature_data: pd.DataFrame, scaler_type:str) -> pd.DataFrame:
         pass
 
 # Implement FeatureScaler
 class FeatureScaler(FeatureEngineering): 
-    
+    def __init__(self):
+        FeatureEngineering.__init__(self)
+        self.std_scaler = StandardScaler()
+        self.mm_scaler =  MinMaxScaler()
+        
     # Scaling the feature if features are numeric 
     def transform(self, feature_data: pd.DataFrame, scaler_type: str) -> pd.DataFrame:
         # Choose type of scaling
         if scaler_type == "StandardScaler":
             # Scale the feautre using standard scaler
-            scaler = StandardScaler()
-            scaled_feature_data = scaler.fit_transform(feature_data).reshape(-1, 1)
+            scaled_feature_data = self.scaler.fit_transform(feature_data).reshape(-1, 1)
             return scaled_feature_data
         elif scaler_type == "MinMax":
             # Scale the feature using min-max scaler
-            scaler = MinMaxScaler()
-            scaled_feature_data = scaler.fit_transform(feature_data).reshape(-1, 1)
+            scaled_feature_data = self.mm_scaler.fit_transform(feature_data).reshape(-1, 1)
             return scaled_feature_data
         else:
             raise ModuleNotFoundError("Scaler is not known. Please, specify your scaler")
@@ -46,19 +48,22 @@ class FeatureScaler(FeatureEngineering):
 
 # Implement FeatureEncoder
 class FeatureEncoder(FeatureEngineering):
+    def __init__(self, feature_data: pd.DataFrame):
+        self.label_encoder = LabelEncoder()
+        self.oht_encoder = OneHotEncoder()
 
     # Method: encode categorical feature 
     def transform(self, feature_data: pd.DataFrame, encoder_type: str) -> pd.DataFrame:
         # Choose type of scaling
         if encoder_type == "LabelEncoder":
             # Scale the feautre using standard scaler
-            scaler = LabelEncoder()
-            scaled_feature_data = scaler.fit_transform(feature_data).reshape(-1, 1)
+            # scaler = LabelEncoder()
+            scaled_feature_data = self.label_encoder.fit_transform(feature_data).reshape(-1, 1)
             return scaled_feature_data
         elif encoder_type == "OneHotEncoder":
             # Scale the feature using min-max scaler
             scaler = OneHotEncoder()
-            scaled_feature_data = scaler.fit_transform(feature_data).reshape(-1, 1)
+            scaled_feature_data = self.oht_encoder.fit_transform(feature_data).reshape(-1, 1)
             return scaled_feature_data
         else:
             raise ModuleNotFoundError("Scaler is not known. Please, specify your scaler")
