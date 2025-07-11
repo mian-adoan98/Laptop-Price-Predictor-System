@@ -1,0 +1,185 @@
+Here’s the classification of the processors based on their types:  
+
+### **Intel Processors**  
+#### **Intel Core i9 Series**  
+- Intel Core i9 12th Gen  
+- Intel Core i9 13th Gen  
+
+#### **Intel Core i7 Series**  
+- Intel Core i7 1st Gen  
+- Intel Core i7 2nd Gen  
+- Intel Core i7 3rd Gen  
+- Intel Core i7 4th Gen  
+- Intel Core i7 5th Gen  
+- Intel Core i7 6th Gen  
+- Intel Core i7 7th Gen  
+- Intel Core i7 8th Gen  
+- Intel Core i7 9th Gen  
+- Intel Core i7 10th Gen  
+- Intel Core i7 11th Gen  
+- Intel Core i7 12th Gen  
+- Intel Core i7 13th Gen  
+- Intel Core i7-6600U  
+- Intel Core i7-6820HQ  
+- Intel Core i7-7700HQ  
+- Intel Core i7-7820HQ  
+- Intel Core i7-8550U  
+- Intel Core i7-8665U  
+- Intel Core i7-1065G7  
+- Intel Core i7-1165G7  
+- Intel Core i7-1185G7  
+- Intel Core i7-1260U  
+- Intel Core i7-1265U  
+- Intel Core i7-1355U  
+- Intel Core i7-13700H  
+
+#### **Intel Core i5 Series**  
+- Intel Core i5 1st Gen  
+- Intel Core i5 2nd Gen  
+- Intel Core i5 3rd Gen  
+- Intel Core i5 4th Gen  
+- Intel Core i5 5th Gen  
+- Intel Core i5 6th Gen  
+- Intel Core i5 7th Gen  
+- Intel Core i5 8th Gen  
+- Intel Core i5 9th Gen  
+- Intel Core i5 10th Gen  
+- Intel Core i5 11th Gen  
+- Intel Core i5 12th Gen  
+- Intel Core i5 13th Gen  
+- Intel Core i5-2520M  
+- Intel Core i5-3210M  
+- Intel Core i5-3320M  
+- Intel Core i5-4200U  
+- Intel Core i5-4300M  
+- Intel Core i5-4300U  
+- Intel Core i5-4310U  
+- Intel Core i5-5200U  
+- Intel Core i5-5300U  
+- Intel Core i5-6200U  
+- Intel Core i5-6300U  
+- Intel Core i5-7200U  
+- Intel Core i5-7300HQ  
+- Intel Core i5-8250U  
+- Intel Core i5-8265U  
+- Intel Core i5-8350U  
+- Intel Core i5-8365U  
+- Intel Core i5-10310U  
+- Intel Core i5-1135G7  
+- Intel Core i5-1235U  
+- Intel Core i5-12450H  
+- Intel Core i5-13420H  
+- Intel Core i5-1345U  
+
+#### **Intel Core i3 Series**  
+- Intel Core i3 1st Gen  
+- Intel Core i3 2nd Gen  
+- Intel Core i3 3rd Gen  
+- Intel Core i3 4th Gen  
+- Intel Core i3 5th Gen  
+- Intel Core i3 6th Gen  
+- Intel Core i3 7th Gen  
+- Intel Core i3 8th Gen  
+- Intel Core i3 10th Gen  
+- Intel Core i3 11th Gen  
+- Intel Core i3 12th Gen  
+- Intel Core i3-6100U  
+- Intel Core i3-1115G4  
+- Intel Core i3-1215U  
+- Intel Core i3-1220P  
+
+#### **Intel Xeon Series**  
+- Intel Xeon  
+- Intel Xeon E-2176M  
+
+#### **Intel Core M Series**  
+- Intel Core M-5Y71  
+- Intel Core M3 7th Gen  
+- Intel Core M5  
+
+#### **Intel Celeron Series**  
+- Intel Celeron  
+- Intel Celeron N  
+- Intel Celeron N2840  
+- Intel Celeron N2940  
+- Intel Celeron N3050  
+- Intel Celeron N3060  
+- Intel Celeron N3350  
+- Intel Celeron N4020  
+- Intel Celeron N4120  
+- Intel Celeron Dual-Core  
+
+#### **Intel Pentium Series**  
+- Intel Pentium  
+- Intel Pentium 3825U  
+- Intel Pentium Gold 8505  
+- Intel Pentium Silver N6000  
+- Intel Pentium N4200  
+
+#### **Other Intel Processors**  
+- Intel Atom Dual-Core  
+- Intel Atom Quad-Core  
+- Intel Atom Single-Core  
+- Intel Core 2 Duo  
+- Intel Core 2 Quad  
+
+---
+
+### **AMD Processors**  
+#### **AMD Ryzen Series**  
+- AMD Ryzen 3  
+- AMD Ryzen 3 Pro  
+- AMD Ryzen 3 4000 Series  
+- AMD Ryzen 5  
+- AMD Ryzen 5 3rd Gen  
+- AMD Ryzen 5 4500U  
+- AMD Ryzen 5 5500U  
+- AMD Ryzen 5 5625U  
+- AMD Ryzen 5 6000 Series  
+- AMD Ryzen 5 7000 Series  
+- AMD Ryzen 7  
+- AMD Ryzen 7 Pro 3700U  
+- AMD Ryzen 7 Pro 4750U  
+- AMD Ryzen 7 Pro 6850U  
+- AMD Ryzen 7 7840HS  
+- AMD Ryzen 9  
+
+#### **AMD A-Series**  
+- AMD A4 Dual-Core  
+- AMD A4-9120C  
+- AMD A6 Dual-Core  
+- AMD A6-9220C  
+- AMD A6-7310 APU  
+- AMD A8 Quad-Core  
+- AMD A8-7410 4-Core  
+- AMD A9  
+- AMD A10  
+- AMD A10-8730B  
+
+#### **AMD Athlon Series**  
+- AMD Athlon  
+- AMD Athlon Gold 3150U  
+- AMD Athlon XP  
+
+#### **Other AMD Processors**  
+- AMD E-Series  
+- AMD Turion II  
+- AMD Turion X2  
+- AMD Turion 64  
+
+---
+
+### **ARM & Qualcomm Processors**  
+- Qualcomm Kryo 468  
+- Qualcomm Snapdragon 7C  
+- Qualcomm Snapdragon 7C Gen 2  
+- Qualcomm Snapdragon 8CX Gen 2  
+- Qualcomm Snapdragon 8CX Gen 3  
+- Microsoft SQ1  
+- Microsoft SQ2  
+- MediaTek MT8173C  
+- MediaTek MT8183  
+- MediaTek Helio P60T  
+- Nvidia Tegra 3  
+- Nvidia Tegra K1  
+
