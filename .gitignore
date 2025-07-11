@@ -1,0 +1,7 @@
+# Ignore Folders with more than 10 files 
+
+# Virtual Environments + Included files
+.mlenv/
+requirements.txt
+.idea/
+.requirements.txt

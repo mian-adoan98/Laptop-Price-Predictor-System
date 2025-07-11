@@ -1,0 +1,34 @@
+# Laptop Price Predictor System 
+
+## Laptop Price Prediction: Introduction 
+
+Laptop Price prediction is a machine learning application that uses regression algorithm to make predictions on future laptop prices based on its properties. 
+It is well-demanded in E-commerce and telecommunication bussinesses that provides users the ability to personalise their choice on different laptops sold globally. 
+The laptops varies from notebook to high-performance laptops, like hp, asus, macbook, etc. 
+
+## Problem Scope 
+
+This project focuses on building an machine learning application on web environment where users can estimate the predicted price based on a couple of features. For instance 
+user 1 consider to buy a laptop with brand HP with 16 GB Ram, 1 TB SSD Drive. These properties of the laptop will determine the estimated price attractive for the user to purchase.
+The objectives of this project are: 
+
+- Helping customer's choosing the best laptop price based on its specifications
+- Predicting the sales in months based on past sold laptops
+- Providing real-time insights for price comparison of laptops and benchmarking across different brands
+
+## Machine Learning Pipeline
+
+The pipeline for this machine learning projects involves different phases where the model is being trained on past laptop prices and its properties 
+and increase its performance and making better predicted price for future laptops in the upcoming years. This involves:
+
+- **Data Collection**
+- **Data Preprocessing**:
+- **Exploratory Data Analysis
+- Feature Engineering
+- Model Training
+- Model Validation and Tuning
+- Model Deployment
+- Model Monitoring**
+
+At the last two phases where the principles of MLOps will come in heandy due to high scalibility and efficiency of developing the predictor system effectively using a variety of models with its highest performance. 
+This will be discussed in future advancements.
