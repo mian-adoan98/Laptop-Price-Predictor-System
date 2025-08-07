@@ -23,6 +23,12 @@ class FileDataIngestor(DataIngestor):
     def __init__(self, filename):
         DataIngestor.__init__(self)
         self.filename = filename
+    # Params:
+    #   - data_path: the path of a folder only for datasets
+    #   - filename: name of the file from any arbitrary directory
+    # 
+    # Return: a dataset from a selected directory 
+
 
     # Ingestion method for importing and creating dataset from local disk 
     def ingest(self, data_path: str) -> pd.DataFrame:
