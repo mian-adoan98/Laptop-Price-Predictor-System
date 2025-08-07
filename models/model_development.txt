@@ -1,7 +1,0 @@
-"""" Model Development"""
-
-This phase we train 2 models for making predictions on the laptop price sales: 
-- model 1: simple linear regression model 
-- model 2: multivariate linear regression model 
-- model 3: ridge regression model 
-- model 4: linear neural network model (with TensorFlow)
